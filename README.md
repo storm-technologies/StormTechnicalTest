@@ -16,7 +16,7 @@ Ensure you have the following installed on your development machine:
 We will provide you with a GitHub repository URL. Use it to clone the project to your local machine:
 
 ```bash
-git clone https://dev.azure.com/StormDev/Storm_JavaScript_Test/_git/vue-storm-js
+git clone https://github.com/storm-technologies/StormTechnicalTest.git
 ```
 
 ### Step 2: Install Dependencies
@@ -31,7 +31,7 @@ npm run dev
 
 ### Step 3: Create a Todo Component
 
-1. Inside the `src/components` directory, create a new file named `Todo.vue`.
+1. Inside the `src/components` directory, create a new file named `TodoList.vue`.
 
 2. Define a simple Todo component using Vue.js and Pinia:
 
@@ -42,7 +42,7 @@ npm run dev
 
 ### Step 4: Integrate the Component
 
-1. Import your `Todo.vue` component into the `App.vue` file or any other relevant parent component.
+1. Import your `TodoList.vue` component into the `App.vue` file or any other relevant parent component or view.
 
 2. Ensure the new component is rendering correctly within the application.
 
@@ -52,7 +52,7 @@ npm run dev
 npm run dev
 ```
 
-Access the application in your browser via [http://localhost:{port}](http://localhost:port).
+Access the application in your browser via [http://localhost:5173](http://localhost:5173).
 
 ### Step 5: Commit Your Changes
 
