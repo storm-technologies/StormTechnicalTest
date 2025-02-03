@@ -1,91 +1,49 @@
-# Project Setup for Evaluation
+# Vue.js Todo List Technical Test
 
-Welcome to storm test for todo list using vuejs. This is a test to evaluate your skills with Vue.js, Pinia, Tailwind CSS, and Vite. Please follow the instructions below to clone the existing project, create a new component, and submit your changes via a pull request.
+Welcome! This test assesses your skills with Vue.js, Pinia, Tailwind CSS, and your ability to manage a project setup using Vite. Follow the instructions below and submit your work through a pull request.
 
-## Prerequisites
+## Objective
 
-Ensure you have the following installed on your development machine:
+Create a simple Todo List application with the following requirements:
 
-- Node.js and npm: [Download here](https://nodejs.org/).
-- Git: [Download here](https://git-scm.com/).
+1. **Component Creation**: 
+   - Develop a `TodoList` Vue component.
+   - Use Pinia to manage the state for your Todo list.
 
-## Instructions
+2. **Functionality**:
+   - Allow users to add and view todo items.
 
-### Step 1: Clone the Repository
+3. **Styling**:
+   - Style your application using Tailwind CSS for design consistency.
 
-We will provide you with a GitHub repository URL. Use it to clone the project to your local machine:
+## Setup
 
-```bash
-git clone https://github.com/storm-technologies/StormTechnicalTest.git
-```
+1. **Clone the Repository**:
+   - Clone the given repository URL to your local machine.
 
-### Step 2: Install Dependencies
+2. **Installation**:
+   - Navigate to the project directory and install dependencies.
+   - Run the development server and ensure everything is set up correctly.
 
-Navigate to the project directory and install all necessary dependencies:
+## Integration
 
-```bash
-cd vue-storm-js
-npm install
-npm run dev
-```
+- Integrate your `TodoList` component within the application and verify it runs as expected.
 
-### Step 3: Create a Todo Component
+## Optional: Unit Testing
 
-1. Inside the `src/components` directory, create a new file named `TodoList.vue`.
+- Demonstrate your skills by writing unit tests for your component. This step is optional but will highlight your attention to reliability and quality assurance.
 
-2. Define a simple Todo component using Vue.js and Pinia:
+## Submission
 
-   - Use Pinia to manage a todo list state.
-   - Implement basic functionalities such as adding and displaying todos.
+1. **Branch Creation**:
+   - Work on a new branch and name it appropriately for your feature implementation.
 
-3. Use Tailwind CSS to style the component and its elements.
+2. **Commit and Push**:
+   - Commit your changes and push the branch to the remote repository.
 
-### Step 4: Integrate the Component
-
-1. Import your `TodoList.vue` component into the `App.vue` file or any other relevant parent component or view.
-
-2. Ensure the new component is rendering correctly within the application.
-
-3. Run the development server to test your implementation:
-
-```bash
-npm run dev
-```
-
-Access the application in your browser via [http://localhost:5173](http://localhost:5173).
-
-### Step 5: Commit Your Changes
-
-1. Create a new branch for your work to avoid committing directly to the `main` or `master` branch:
-
-```bash
-git checkout -b feature/add-todo-component
-```
-
-2. Stage and commit your changes with a clear and descriptive message:
-
-```bash
-git add .
-git commit -m "feat: add Todo component using Vue.js and Pinia"
-```
-
-### Step 6: Push Changes and Open a Pull Request
-
-1. Push your branch to the remote repository:
-
-```bash
-git push origin feature/add-todo-component
-```
-
-2. Open a pull request:
-
-   - Visit your repository on Azure.
-   - Navigate to the "Pull requests" tab.
-   - Click on "New pull request".
-   - Select the branch you just pushed and follow the prompts to create the pull request.
+3. **Pull Request**:
+   - Open a pull request for review with a clear description of your changes and (if applicable) testing approach.
 
 ## Conclusion
 
-Upon completing the tasks, you've demonstrated your ability to create a component using Vue.js, manage state with Pinia, and apply styles with Tailwind CSS. The pull request provides us with an opportunity to review your work. If you have any questions, please feel free to reach out.
-
-Thank you for participating!
+This test is an opportunity to showcase your technical skills and thought process. We are excited to see your approach to solving this task. Good luck!
