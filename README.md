@@ -8,7 +8,7 @@ Create a simple Todo List application with the following requirements:
 
 1. **Component Creation**: 
    - Develop a `TodoList` Vue component.
-   - Use Pinia to manage the state for your Todo list.
+   - Use Pinia or similar to manage the state for your Todo list.
 
 2. **Functionality**:
    - Allow users to add and view todo items.
