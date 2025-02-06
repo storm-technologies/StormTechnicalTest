@@ -11,7 +11,7 @@ Create a simple Todo List application with the following requirements:
    - Use Pinia or similar to manage the state for your Todo list.
 
 2. **Functionality**:
-   - Allow users to add and view todo items.
+   - Allow users to add, update, delete and view todo items.
 
 3. **Styling**:
    - Style your application using Tailwind CSS for design consistency.
