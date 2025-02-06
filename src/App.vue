@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="max-w-7xl mx-auto flex items-center p-4">
       <!-- Logo Section -->
       <div class="flex-shrink-0">
-        <img class="h-8 w-auto" src="https://storm.tech/_nuxt/logo.iqI62fdX.svg" alt="Logo" />
+        <img class="h-8 w-auto" src="./assets/images/logo.svg" alt="Logo" />
       </div>
       <!-- Navigation Section -->
       <nav class="flex space-x-4 ml-4">
